@@ -124,7 +124,7 @@ input:focus {
 .nav-under {
     margin-top: 10px;
     justify-content: center;
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
 }
 
 .nav-under::-webkit-scrollbar {
