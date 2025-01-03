@@ -1,0 +1,154 @@
+@media (max-width: 430px) {
+    .container {
+        width: 95%;
+    }
+}
+
+/* navbar */
+@media (max-width: 430px) {
+    .nav-top {
+        flex-direction: column;
+    }
+    .nav-top .logo {
+        width: 100%;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 20px;
+    }
+    .nav-top form {
+        width: 100%;
+        input {
+            width: 100%;
+        }
+    }
+}
+
+/* home */
+@media (max-width: 1024px) {
+    .home .container {
+        flex-direction: column;
+    }
+
+    .home .container .featured-right {
+        width: 100%;
+    }
+
+    .home .container .featured-left {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .featured-left .box h3 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 430px) {
+    .featured-right {
+        height: auto;
+    }
+
+    .featured-left .box {
+        width: 100%;
+    }
+}
+
+/* end-news */
+@media (max-width: 1024px) {
+    .end-news .box {
+        width: calc(33.33333333333333% - 20px);
+    }
+}
+
+@media (max-width: 770px) {
+    .end-news .box {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 430px) {
+    .end-news .box {
+        width: 100%;
+    }
+}
+
+/* other */
+@media (max-width: 1024px) {
+    .other .container ul {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 430px) {
+    .other .container ul {
+        width: 100%;
+    }
+}
+
+/* private */
+@media (max-width: 1024px) {
+    .private .box {
+        width: calc(33.33333333333333% - 20px);
+    }
+}
+
+@media (max-width: 770px) {
+    .private .box {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 430px) {
+    .private .box {
+        width: 100%;
+    }
+}
+
+/* footer */
+@media (max-width: 1024px) {
+    footer .footer-center ul {
+        width: 33.3333%;
+    }
+
+    footer .footer-center .card {
+        width: calc(100% - 33.3333%);
+    }
+}
+
+@media (max-width: 770px) {
+    footer .footer-center ul {
+        width: 50%;
+    }
+
+    footer .footer-center .card {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 430px) {
+    .social {
+        margin: auto;
+    }
+
+    footer .app p {
+        text-align: center;
+    }
+
+    footer .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer .footer-center ul {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .footer-center .card {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
