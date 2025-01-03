@@ -1,1 +1,1 @@
-no responsive
+is responsive
