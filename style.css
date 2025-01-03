@@ -71,6 +71,10 @@ a {
     right: 120px;
 }
 
+.private .title::after {
+    right: 75px;
+}
+
 /* navbar */
 header {
     position: relative;
@@ -124,21 +128,26 @@ input:focus {
 .nav-under {
     margin-top: 10px;
     justify-content: center;
-    /* overflow-x: scroll; */
 }
 
-.nav-under::-webkit-scrollbar {
+.nav-under ul {
+    display: flex;
+    height: 45px;
+    overflow-x: scroll;
+}
+
+.nav-under ul::-webkit-scrollbar {
     width: 0;
     height: 0;
 }
 
 .nav-under li {
     position: relative;
-    display: inline-block;
     padding: 10px;
     margin: 0 5px;
 
     a {
+        display: block;
         color: var(--fff);
     }
 }
@@ -250,13 +259,13 @@ input:focus {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    row-gap: 5px;
+    gap: 15px;
     padding: 0 5px;
 }
 
 .featured-left .box {
     position: relative;
-    width: 335px;
+    width: calc(50% - 7.5px);
     height: 383.5px;
     overflow: hidden;
     border-radius: 2px;
@@ -305,6 +314,7 @@ input:focus {
 
 .end-news .box {
     width: 325px;
+    width: calc(25% - 20px);
     height: 350px;
     border-radius: 2px;
     transition: 0.3s;
@@ -423,7 +433,7 @@ input:focus {
 }
 
 .private .box {
-    width: 325px;
+    width: calc(25% - 20px);
     height: 350px;
     border-radius: 2px;
     transition: 0.3s;
